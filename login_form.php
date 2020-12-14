@@ -28,6 +28,43 @@
           <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
         </div>
       </form>
+      <?php error_reporting(E_ALL^E_NOTICE);?>
+      <?php
+
+
+      $con= mysqli_connect('localhost','root','','project');
+
+               if(!$con)
+               {
+                   die("Connection failed: " . mysqli_connect_error());
+               }
+
+
+      mysqli_select_db($con,'project');
+
+      $name=$_POST['uname'];
+      $password=$_POST['password'];
+
+   if(!empty($name) and !empty($password))
+   {
+
+      $s=" SELECT   * from customer where Name='$name' and password ='$password' ";
+
+      $result=mysqli_query($con,$s);
+
+      $num=mysqli_num_rows($result);
+
+      if($num>0){
+        echo "<script>window.location='home.php'</script> ";
+      }else{
+        echo " user not registered";
+      }
+   }
+
+
+   mysqli_close($con);
+   exit();
+       ?>
 
       <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
         <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
