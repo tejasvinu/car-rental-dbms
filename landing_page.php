@@ -13,86 +13,83 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
 <body>
-
+<style>
+#rcorners {
+	  border-radius: 25px;
+}
+</style>
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+  <div class="w3-bar w3-red w3-card w3-left w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Profile</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cars</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About us</a>
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Login</button>
 
-    <div id="id01" class="w3-modal">
-      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+		<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-red w3-large w3-right w3-padding-large">Login</button>
+			  <div id="id01" class="w3-modal" >
+			    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
 
-        <div class="w3-center"><br>
-          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
-          <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
-        </div>
+			      <div class="w3-center"><br>
+			        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+			        <img src="profile_pic.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+			      </div>
 
-        <form class="w3-container" action="alt car rental\home.php">
-          <div class="w3-section">
-            <label><b>Username</b></label>
-            <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
-            <label><b>Password</b></label>
-            <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" required>
-            <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
-            <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
-          </div>
-        </form>
+			      <form class="w3-container" id="rcorners" action="registered.php"method="post">
+			        <div class="w3-section" id="rcorners">
+			          <label><b>Username</b></label>
+			          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
+			          <label><b>Password</b></label>
+			          <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="password" required>
+			          <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+			        </div>
+			      </form>
 
-        <?php error_reporting(E_ALL^E_NOTICE);?>
-        <?php
+			      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey" >
+			        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+			        <span class="w3-right w3-padding w3-hide-small">Admin <a href="#">Login||</a></span>
+			      </div>
 
+			    </div>
+			  </div>
+				<button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-red w3-large w3-right w3-padding-large">Sign in</button>
+				<div id="id02" class="w3-modal" >
+					<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
 
-        $con= mysqli_connect('localhost','root','','project');
+						<div class="w3-center"><br>
+							<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+							<img src="profile_pic.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+						</div>
 
-                 if(!$con)
-                 {
-                     die("Connection failed: " . mysqli_connect_error());
-                 }
+						<form class="w3-container" id="rcorners" action="registered.php"method="post">
+							<div class="w3-section" id="rcorners">
+								<label><b>Username</b></label>
+								<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
+								<label><b>Password</b></label>
+								<input class="w3-input w3-border" type="text" placeholder="Enter Password" name="password" required>
+								<label><b>Phone Number</b></label>
+								<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Phone Number" name="Phone_id" required>
+								<label><b>Date of Birth</b></label>
+								<input class="w3-input w3-border" type="date" placeholder="Enter Date of Birth" name="Dateofbirth" required>
+								<label><b>address</b></label>
+								<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter your address" name="Address" required>
+								<label><b>Sex</b></label>
+								<input class="w3-input w3-border" type="text" placeholder="Enter Your Sex" name="Sex" required>
+								<label><b>Email</b></label>
+								<input class="w3-input w3-border" type="email" placeholder="Enter Your Mail Id" name="email" required>
+								<button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+							</div>
+						</form>
 
+						<div class="w3-container w3-border-top w3-padding-16 w3-light-grey" >
+							<button onclick="document.getElementById('id02').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+						</div>
 
-        mysqli_select_db($con,'project');
-
-        $name=$_POST['uname'];
-        $password=$_POST['password'];
-
-      if(!empty($name) and !empty($password))
-      {
-
-        $s=" SELECT   * from customer where Name='$name' and password ='$password' ";
-
-        $result=mysqli_query($con,$s);
-
-        $num=mysqli_num_rows($result);
-
-        if($num>0){
-          echo "<script>window.location='C:\xampp\htdocs\project\car-rental-dbms\alt car rental\home.php'</script> ";
-        }else{
-          echo " user not registered";
-        }
-      }
-
-
-
-         ?>
-
-        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
-          <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
+					</div>
+				</div>
+			</div>
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Profile</a>
@@ -106,7 +103,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">Rent Cars</h1>
   <p class="w3-xlarge">Landing page</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+  <a href="browsing.php" class="w3-button w3-xlarge w3-black" id="rcorners">BROWSE</a>
 </header>
 
 <!-- First Grid -->
