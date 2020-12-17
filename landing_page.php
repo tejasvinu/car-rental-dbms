@@ -23,7 +23,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-red w3-card w3-left w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Profile</a>
+    <a href="profile.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Profile</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cars</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About us</a>
@@ -63,7 +63,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 							<img src="profile_pic.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
 						</div>
 
-						<form class="w3-container" id="rcorners" action="registered.php"method="post">
+						<form class="w3-container" id="rcorners" action="session.php"method="post">
 							<div class="w3-section" id="rcorners">
 								<label><b>Username</b></label>
 								<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
@@ -92,7 +92,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 			</div>
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Profile</a>
+    <a href="profile.php" class="w3-bar-item w3-button w3-padding-large">Profile</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Cars</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Contacts</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">About us</a>
