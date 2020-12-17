@@ -36,11 +36,36 @@ body, html {
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>CARS</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="browsing_page.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>CARS</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-			<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white w3-large w3-right w3-padding-large">LOGIN</button>
-		
+			<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white w3-medium">Login</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+      <div class="w3-center"><br>
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+        <img src="profile_pic.jpg" alt="Avatar" style="width:40%" class="w3-circle w3-margin-top">
+      </div>
+
+      <form class="w3-container" action="/action_page.php">
+        <div class="w3-section">
+          <label><b>Username</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+          <label><b>Password</b></label>
+          <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" required>
+          <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+        </div>
+      </form>
+
+      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+      </div>
+
+    </div>
+  </div>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -56,7 +81,6 @@ body, html {
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
   <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">CARS</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 	<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white w3-large w3-right w3-padding-large">LOGIN</button>
 
@@ -140,7 +164,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team1.jpg" alt="raji" style="width:100%">
+        <img src="cto.jpeg" alt="raji" style="width:100%" height="300" >
         <div class="w3-container">
           <h3>Rajesh K</h3>
           <p class="w3-opacity">CTO</p>
@@ -172,17 +196,17 @@ body, html {
       <p>We are unique in providing service where we can lease or<br>rent vehicles for short term on contract basis or only for a few days.</p>
     </div>
     <div class="w3-col m6">
-      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Our app</p>
+      <p class="w3-wide"><i class="fa fa-car w3-margin-right"></i>Our app</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90% Positive</div>
       </div>
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Google</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85% Positive</div>
       </div>
-      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>yolo</p>
+      <p class="w3-wide"><i class="fa fa-taxi w3-margin-right"></i>yolo</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75% Positive</div>
       </div>
     </div>
   </div>
