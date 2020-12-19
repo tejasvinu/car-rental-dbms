@@ -48,20 +48,19 @@ body, html {
         <img src="images/profile_pic.jpg" alt="Avatar" style="width:40%" class="w3-circle w3-margin-top">
       </div>
 
-      <form class="w3-container" action="/action_page.php">
-        <div class="w3-section">
+      <form class="w3-container"id="rcorners" action="registered.php"method="post">
+        <div class="w3-section" id="rcorners">
           <label><b>Username</b></label>
           <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
           <label><b>Password</b></label>
           <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" required>
           <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
-          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
         </div>
       </form>
 
       <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
         <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
-        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+        <span class="w3-right w3-padding w3-hide-small">Admin <a href="#">LOGIN?</a></span>
       </div>
 
     </div>
@@ -106,9 +105,6 @@ body, html {
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
 </div>
 
