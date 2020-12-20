@@ -8,6 +8,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+#imgg {
+    float: left;
+    width:  300px;
+    height: 150px;
+    object-fit: scale-down;
+}
+
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
@@ -63,29 +70,27 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </p>
   </header>
 
-  <!-- Image header -->
+<!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="images/ferrari-roma.jpg" alt="Jeans" style="width:100%">
+    <img src="images/ferrari-roma.jpg" id="h" alt="new arrival" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
-      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">BOOK NOW</a></p>
     </div>
   </div>
 
-  <div class="w3-container w3-text-grey" id="jeans">
-    <p>8 items</p>
-  </div>
+<h2>All avalible vehicles<br></h2>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="images/merc_a45s.jpg" style="width:100%">
+        <img src="images/merc_a45s.jpg" id="imgg" style="width:100%">
         <p>mercedes a45s</p>
       </div>
       <div class="w3-container">
-        <img src="images/bmw_x5.jpg" style="width:100%">
+        <img src="images/bmw_x5.jpg" id="imgg"  style="width:100%">
         <p>BMW X5</p>
       </div>
     </div>
@@ -93,32 +98,26 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="images/merc_e63s.jpg" style="width:100%">
+          <img src="images/merc_e63s.jpg" id="imgg"  style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
         </div>
         <p>Merceds e65s<br></p>
       </div>
       <div class="w3-container">
-        <img src="images/merc_c63s.jpg" style="width:100%">
+        <img src="images/merc_c63s.jpg" id="imgg"  style="width:100%">
         <p>mercedes c63s</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="images/merc_s63s.jpeg" style="width:100%">
+        <img src="images/merc_s63s.jpeg" id="imgg"  style="width:100%">
         <p>mersedes S63s</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="images/bmw_5_ser.jpg" style="width:100%">
+          <img src="images/bmw_5_ser.jpg" id="imgg"  style="width:100%">
           <span class="w3-tag w3-display-topleft">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
         </div>
         <p>BMW 5 series</b></p>
       </div>
@@ -126,11 +125,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="images/bmw_4_ser.jpg" style="width:100%">
+        <img src="images/bmw_4_ser.jpg" id="imgg"  style="width:100%">
         <p>BMW 4 series</p>
       </div>
       <div class="w3-container">
-        <img src="images/bmw_3_ser.jpg" style="width:100%">
+        <img src="images/bmw_3_ser.jpg" id="imgg"  style="width:100%">
         <p>BMW 3 series</p>
       </div>
     </div>
@@ -138,11 +137,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 	<div class="w3-row w3-grayscale">
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
-				<img src="images/audi_a6.jpg" style="width:100%">
+				<img src="images/audi_a6.jpg" id="imgg"  style="width:100%">
 				<p>mercedes a45s</p>
 			</div>
 			<div class="w3-container">
-				<img src="images/audi_rs6.jpeg" style="width:100%">
+				<img src="images/audi_rs6.jpeg" id="imgg"  style="width:100%">
 				<p>BMW X5</p>
 			</div>
 		</div>
@@ -150,32 +149,26 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
 				<div class="w3-display-container">
-					<img src="images/audi_rsq8.jpg" style="width:100%">
+					<img src="images/audi_rsq8.jpg" id="imgg"  style="width:100%">
 					<span class="w3-tag w3-display-topleft">New</span>
-					<div class="w3-display-middle w3-display-hover">
-						<button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-					</div>
 				</div>
 				<p>Merceds e65s<br></p>
 			</div>
 			<div class="w3-container">
-				<img src="images/audi_q7.jpeg" style="width:100%">
+				<img src="images/audi_q7.jpeg" id="imgg"  style="width:100%">
 				<p>mercedes c63s</p>
 			</div>
 		</div>
 
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
-				<img src="images/rr_phantom.jpg" style="width:100%">
+				<img src="images/rr_phantom.jpg" id="imgg"  style="width:100%">
 				<p>mersedes S63s</p>
 			</div>
 			<div class="w3-container">
 				<div class="w3-display-container">
-					<img src="images/rr-ghost.jpg" style="width:100%">
+					<img src="images/rr-ghost.jpg" id="imgg"  style="width:100%">
 					<span class="w3-tag w3-display-topleft">Sale</span>
-					<div class="w3-display-middle w3-display-hover">
-						<button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-					</div>
 				</div>
 				<p>BMW 5 series</b></p>
 			</div>
@@ -183,11 +176,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
-				<img src="images/tesla_model_s.jpg" style="width:100%">
+				<img src="images/tesla_model_s.jpg" id="imgg"  style="width:100%">
 				<p>BMW 4 series</p>
 			</div>
 			<div class="w3-container">
-				<img src="images/tesla_model_3.jpg" style="width:100%">
+				<img src="images/tesla_model_3.jpg" id="imgg"  style="width:100%">
 				<p>BMW 3 series</p>
 			</div>
 		</div>
@@ -195,11 +188,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 	<div class="w3-row w3-grayscale">
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
-				<img src="images/cullinan.jpg" style="width:100%">
+				<img src="images/cullinan.jpg" id="imgg"  style="width:100%">
 				<p>mercedes a45s</p>
 			</div>
 			<div class="w3-container">
-				<img src="images/jag_f-type.jpeg" style="width:100%">
+				<img src="images/jag_f-type.jpeg" id="imgg"  style="width:100%">
 				<p>BMW X5</p>
 			</div>
 		</div>
@@ -207,32 +200,26 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
 				<div class="w3-display-container">
-					<img src="images/maserati.jpg" style="width:100%">
+					<img src="images/maserati.jpg" id="imgg"  style="width:100%">
 					<span class="w3-tag w3-display-topleft">New</span>
-					<div class="w3-display-middle w3-display-hover">
-						<button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-					</div>
 				</div>
 				<p>Merceds e65s<br></p>
 			</div>
 			<div class="w3-container">
-				<img src="images/velar.jpg" style="width:100%">
+				<img src="images/velar.jpeg" id="imgg"  style="width:100%">
 				<p>mercedes c63s</p>
 			</div>
 		</div>
 
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
-				<img src="images/ferrari-roma.jpg" style="width:100%">
+				<img src="images/ferrari-roma.jpg" id="imgg"  style="width:100%">
 				<p>mersedes S63s</p>
 			</div>
 			<div class="w3-container">
 				<div class="w3-display-container">
-					<img src="images/urus.jpeg" style="width:100%">
+					<img src="images/urus.jpeg" id="imgg"  style="width:100%">
 					<span class="w3-tag w3-display-topleft">Sale</span>
-					<div class="w3-display-middle w3-display-hover">
-						<button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-					</div>
 				</div>
 				<p>BMW 5 series</b></p>
 			</div>
@@ -240,11 +227,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 		<div class="w3-col l3 s6">
 			<div class="w3-container">
-				<img src="images/cayene.jpg" style="width:100%">
+				<img src="images/cayene.jpg" id="imgg"  style="width:100%">
 				<p>BMW 4 series</p>
 			</div>
 			<div class="w3-container">
-				<img src="images/continental.jpg" style="width:100%">
+				<img src="images/continental.jpg" id="imgg"  style="width:100%">
 				<p>BMW 3 series</p>
 			</div>
 		</div>
