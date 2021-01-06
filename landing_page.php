@@ -201,8 +201,8 @@ body, html {
         <img src="images/cto.jpeg" alt="raji" style="width:100%" height="300" >
         <div class="w3-container">
           <h3>Rajesh K</h3>
-          <p class="w3-opacity">CTO</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p class="w3-opacity">1VA18IS027</p>
+          <p>SAI VIDYA COLLEGE</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
       </div>
@@ -282,7 +282,6 @@ body, html {
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 <script>

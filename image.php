@@ -91,12 +91,12 @@
 
 
         <h4><strong>Extra Info</strong></h4>
-        <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>our cars are very well maintained and serviced. we wash and clean them after each rental. all the cars we rent are top of the line fully decked models.</p>
         <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
         <hr>
 
         <h4><strong>Rules</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>we also hold our customers to adhere to strict rules. some of tthe rules include, no drunk driving, only the person who rented the car should drive it, any traffic violations commited by the drivers is on themselves.</p>
         <p>Subscribe to receive updates on available dates and special offers.</p>
       </div>
       <hr>
@@ -112,7 +112,8 @@
           <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>-->
-        <button type="submit" class="w3-button w3-green w3-third">Book Now</button>
+        <p><a href="cars.php" class="w3-button w3-green w3-third w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off">Book Now</a></p>
+
         </form>
       </div>
 
