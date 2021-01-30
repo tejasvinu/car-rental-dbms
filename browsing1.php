@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>CarZ Rental</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-#imgg {
-    float: left;
-    width:  300px;
-    height: 150px;
-    object-fit: scale-down;
-}
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
@@ -43,7 +37,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 <div class="w3-container w3-text-grey" id="jeans">
-  <p>24 cars</p>
+  <p>24 items</p>
 </div>
 
 <!-- Product grid -->
@@ -51,78 +45,93 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-col l3 s6">
     <div class="w3-container">
       <div class="w3-display-container">
-      <img id="imgg" src="images/merc_a45s.jpg" style="width:100%">
+      <img src="images/merc_a45s.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=103">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=103">MERSEDES A45S</a></p>
+      <p>MERSEDES A45S</p>
     </div>
     <div class="w3-container">
       <div class="w3-display-container">
-      <img id="imgg" src="images/bmw_x5.jpg" style="width:100%">
+      <img src="images/bmw_x5.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=104">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=104">BMW X5</a></p>
+      <p>BMW X5</p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
       <div class="w3-display-container">
-        <img id="imgg" src="images/merc_e63s.jpg" style="width:100%">
+        <img src="images/merc_e63s.jpg" style="width:100%">
         <span class="w3-tag w3-display-topleft">New</span>
         <div class="w3-display-middle w3-display-hover">
+        <button class="w3-button w3-black">
+          <a href="image.php?id=105">Rent Now</a></button>
         </div>
       </div>
-      <p><a href="image.php?id=105">MERCEDES E65S</a><br></p>
+      <p>MERCEDES E65S<br></p>
     </div>
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/merc_c63s.jpg" style="width:100%">
+      <img src="images/merc_c63s.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=106">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=106">MERCEDES C63S</a></p>
+      <p>MERCEDES C63S</p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/merc_s63s.jpeg" style="width:100%">
+      <img src="images/merc_s63s.jpeg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=107">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=107">MERCEDES S63S</a></p>
+      <p>MERCEDES S63S</p>
     </div>
     <div class="w3-container">
       <div class="w3-display-container">
-        <img id="imgg" src="images/bmw_5_ser.jpg" style="width:100%">
+        <img src="images/bmw_5_ser.jpg" style="width:100%">
         <span class="w3-tag w3-display-topleft">Sale</span>
         <div class="w3-display-middle w3-display-hover">
+            <a href="image.php?id=108">Rent Now</a></button>
         </div>
       </div>
-      <p><a href="image.php?id=108">BMW 5 SERIES</a></b></p>
+      <p>BMW 5 SERIES</b></p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
       <div class="w3-display-container">
-      <img id="imgg" src="images/bmw_4_ser.jpg" style="width:100%">
+      <img src="images/bmw_4_ser.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=109">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=109">BMW 4 SERIES</a></p>
+      <p>BMW 4 SERIES</p>
     </div>
     <div class="w3-container">
           <div class="w3-display-container">
-      <img id="imgg" src="images/bmw_3_ser.jpg" style="width:100%">
+      <img src="images/bmw_3_ser.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=110">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=110">BMW 3 SERIES</a></p>
+      <p>BMW 3 SERIES</p>
     </div>
   </div>
 </div>
@@ -130,82 +139,92 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-col l3 s6">
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/audi_a6.jpg" style="width:100%">
+      <img src="images/audi_a6.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=111">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=111">AUDI A6</a></p>
+      <p>AUDI A6</p>
     </div>
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/audi_rs6.jpeg" style="width:100%">
+      <img src="images/audi_rs6.jpeg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+      <button class="w3-button w3-black">
+        <a href="image.php?id=112">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=112">AUDI RS6</a></p>
+      <p>AUDI RS6</p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
       <div class="w3-display-container">
-        <img id="imgg" src="images/audi_rsq8.jpg" style="width:100%">
+        <img src="images/audi_rsq8.jpg" style="width:100%">
         <span class="w3-tag w3-display-topleft">New</span>
         <div class="w3-display-middle w3-display-hover">
+          <a href="image.php?id=113">Rent Now</a></button>
         </div>
       </div>
-      <p><a href="image.php?id=113">AUDI RSQ8</a><br></p>
+      <p>AUDI RSQ8<br></p>
     </div>
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/audi_q7.jpeg" style="width:100%">
+      <img src="images/audi_q7.jpeg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
       <button class="w3-button w3-black">
+        <a href="image.php?id=114">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=114">AUDI Q7</a></p>
+      <p>AUDI Q7</p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/rr_phantom.jpg" style="width:100%">
+      <img src="images/rr_phantom.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
       <button class="w3-button w3-black">
+        <a href="image.php?id=115">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=115">RR PHANTOM</a></p>
+      <p>RR PHANTOM</p>
     </div>
     <div class="w3-container">
       <div class="w3-display-container">
-        <img id="imgg" src="images/rr-ghost.jpg" style="width:100%">
+        <img src="images/rr-ghost.jpg" style="width:100%">
         <span class="w3-tag w3-display-topleft">Sale</span>
         <div class="w3-display-middle w3-display-hover">
+          <a href="image.php?id=116">Rent Now</a></button>
         </div>
       </div>
-      <p><a href="image.php?id=116">RR GHOST</a></b></p>
+      <p>RR GHOST</b></p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/tesla_model_s.jpg" style="width:100%">
+      <img src="images/tesla_model_s.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
       <button class="w3-button w3-black">
+        <a href="image.php?id=117">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=117">TESLA MODEL S</a></p>
+      <p>TESLA MODEL S</p>
     </div>
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/tesla_model_3.jpg" style="width:100%">
+      <img src="images/tesla_model_3.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
       <button class="w3-button w3-black">
+        <a href="image.php?id=118">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=118">TESLA MODEL 3</a></p>
+      <p>TESLA MODEL 3</p>
     </div>
   </div>
 </div>
@@ -213,85 +232,92 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-col l3 s6">
     <div class="w3-container">
             <div class="w3-display-container">
-      <img id="imgg" src="images/cullinan.jpg" style="width:100%">
+      <img src="images/cullinan.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
       <button class="w3-button w3-black">
+        <a href="image.php?id=119">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=119">ROLLS-ROYCE CULLINAM</a></p>
+      <p>ROLLS-ROYCE CULLINAM</p>
     </div>
     <div class="w3-container">
             <div class="w3-display-container">
-      <img id="imgg" src="images/jag_f-type.jpeg" style="width:100%">
+      <img src="images/jag_f-type.jpeg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
       <button class="w3-button w3-black">
+        <a href="image.php?id=120">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=120">JAGUAR F-TYPE</a></p>
+      <p>JAGUAR F-TYPE</p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
       <div class="w3-display-container">
-        <img id="imgg" src="images/maserati.jpg" style="width:100%">
+        <img src="images/maserati.jpg" style="width:100%">
         <div class="w3-display-middle w3-display-hover">
+          <a href="image.php?id=121">Rent Now</a></button>
         </div>
       </div>
-      <p><a href="image.php?id=121">MASERATI LEVANTE</a><br></p>
+      <p>MASERATI LEVANTE<br></p>
     </div>
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/velar.jpg" style="width:100%">
+      <img src="images/velar.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+        <a href="image.php?id=122">Rent Now</a></button>
       </div>
     </div>
-      <p> <a href="image.php?id=122">RANGE ROVER VELAR</a></p>
+      <p> RANGE ROVER VELAR</p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/ferrari-roma.jpg" style="width:100%">
+      <img src="images/ferrari-roma.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+        <a href="image.php?id=123">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=123">FERRARI ROMA</a></p>
+      <p>FERRARI ROMA</p>
     </div>
     <div class="w3-container">
       <div class="w3-display-container">
-        <img id="imgg" src="images/urus.jpeg" style="width:100%">
+        <img src="images/urus.jpeg" style="width:100%">
         <span class="w3-tag w3-display-topleft">Sale</span>
         <div class="w3-display-middle w3-display-hover">
+          <a href="image.php?id=124">Rent Now</a></button>
         </div>
-
       </div>
-      <p><a href="image.php?id=124">LAMBORGINI URUS</b></p>
+      <p>LAMBORGINI URUS</b></p>
     </div>
   </div>
 
   <div class="w3-col l3 s6">
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/cayene.jpg" style="width:100%">
+      <img src="images/cayene.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+        <a href="image.php?id=125">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=125">PORSCHE CAYENE</p>
+      <p>PORSCHE CAYENE</p>
     </div>
     <div class="w3-container">
         <div class="w3-display-container">
-      <img id="imgg" src="images/continental.jpg" style="width:100%">
+      <img src="images/continental.jpg" style="width:100%">
       <div class="w3-display-middle w3-display-hover">
+        <a href="image.php?id=126">Rent Now</a></button>
       </div>
     </div>
-      <p><a href="image.php?id=126">BENTLEY CONTINENTAL</a></p>
+      <p>BENTLEY CONTINENTAL</p>
     </div>
   </div>
 </div>
 
-<!-- Subscribe section -->
+<!-- Subscribe section
 <div class="w3-container w3-black w3-padding-32">
   <h1>Subscribe</h1>
   <p>To get special offers and VIP treatment:</p>

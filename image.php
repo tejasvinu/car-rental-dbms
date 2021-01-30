@@ -23,8 +23,8 @@
     $row1=mysqli_fetch_assoc($res);
 
 
-    echo $_SESSION['unique_id'];
-    echo $_SESSION['name'];
+    //echo $_SESSION['unique_id'];
+  //  echo $_SESSION['name'];
 
 
 
@@ -104,10 +104,10 @@
       <!-- Contact -->
       <div class="w3-container" id="contact">
         <h2>Contact</h2>
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Bangalore, India<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 67151515<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
-        <p>Questions? Go ahead, ask them:</p>
+      
         <form action="cars.php" target="_blank"><!--
           <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>

@@ -36,7 +36,7 @@ body, html {
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="browsing_page.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>CARS</a>
+      <a href="browsing.php" class="w3-bar-item w3-button"><i class="fa fa-th"></i>CARS</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
 			<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white w3-medium">Login</button>
 
@@ -53,15 +53,15 @@ body, html {
           <label><b>Username</b></label>
           <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
           <label><b>Password</b></label>
-          <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="password" required>
+          <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required>
           <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
         </div>
       </form>
-
       <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
         <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
-        <span class="w3-right w3-padding w3-hide-small">Admin <a href="#">LOGIN?</a></span>
+        <span class="w3-right w3-padding w3-hide-small">Admin <a href="admin.php">LOGIN?</a></span>
       </div>
+
 
     </div>
   </div>
@@ -73,7 +73,7 @@ body, html {
 
 						<div class="w3-center"><br>
 							<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
-							<img src="profile_pic.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+							<img src="images/profile_pic.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
 						</div>
 
 						<form class="w3-container" id="rcorners" action="session.php"method="post">
@@ -81,7 +81,7 @@ body, html {
 								<label><b>Username</b></label>
 								<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
 								<label><b>Password</b></label>
-								<input class="w3-input w3-border" type="text" placeholder="Enter Password" name="password" required>
+								<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required>
 								<label><b>Phone Number</b></label>
 								<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Phone Number" name="Phone_id" required>
 								<label><b>Date of Birth</b></label>
@@ -126,7 +126,7 @@ body, html {
     <span class="w3-jumbo w3-hide-small">Rent cars with style</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">rent cars with style</span><br>
     <span class="w3-large">Stop wasting valuable time with cars that aren't you</span>
-    <p><a href="browsing.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start a lifestyle now by clicking here</a></p>
+    <p><a href="browsing.php" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start a lifestyle now by clicking here</a></p>
   </div>
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -190,8 +190,8 @@ body, html {
         <img src="images/ceo.jpg" alt="Tej" style="width:100%">
         <div class="w3-container">
           <h3>Tejas Vinay</h3>
-          <p class="w3-opacity">CEO & Co-Founder</p>
-          <p>Driven by the passion for technology and enthused by the oppurtinities of the future.</p>
+          <p class="w3-opacity">1VA18IS048</p>
+          <p>SAI VIDYA COLLEGE</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
       </div>
@@ -252,20 +252,10 @@ body, html {
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bengaluru, IN</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 9606293853 or 9972598897</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 9609--3853 or 9979---897</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: carzrental@mail.com</p>
     <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
+
     <!-- Image of location/map -->
     <img src="images/footer_image_landing.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>

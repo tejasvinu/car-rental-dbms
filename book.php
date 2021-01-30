@@ -35,7 +35,6 @@ mysqli_select_db($con,'project');
 
 
 
-
  ?>
 
 <body>
@@ -44,7 +43,7 @@ mysqli_select_db($con,'project');
 
 		<div class="step" id="step2">
 			<div class="number">
-  				<span>.</span>
+  				<span>1</span>
         </div>
         <div>
   				<h1>Finalize Order</h1>
@@ -124,13 +123,15 @@ print $masked;
 <button type="submit" class="w3-button w3-green w3-third">Enjoy the ride  </button>
 </form>
 
+
 </div>
 
 
 </body>
 <?php
 mysqli_select_db($con,'project');
-$ins=" INSERT into billing(Tax,cost,final_Amount,username) values('$tax','$total','$price','$name')";
+$book=$row3['Book_id'];
+$ins=" INSERT into billing(Tax,cost,final_Amount,username,book) values('$tax','$total','$price','$name','$book')";
 mysqli_query($con,$ins);
 
 
